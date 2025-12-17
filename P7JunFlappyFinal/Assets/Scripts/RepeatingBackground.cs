@@ -21,12 +21,14 @@ public class RepeatingBackground : MonoBehaviour
         if (transform.position.x < -groundhorizontalLength)
         {
             RepositionBackground();
+            
         }
     }
     private void RepositionBackground()
     {
+        
         Vector2 groundOffset = new Vector2(groundhorizontalLength * 2f, 0);
-        transform.position = (Vector2)transform.position * groundOffset;
+        transform.position = (Vector2)transform.position + groundOffset;
     }
        
 }
