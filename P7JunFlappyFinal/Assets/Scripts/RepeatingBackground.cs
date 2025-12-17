@@ -6,6 +6,7 @@ public class RepeatingBackground : MonoBehaviour
 {
     private BoxCollider2D groundCollider;
     private float groundhorizontalLength;
+
     // Start is called before the first frame update
     void Start()
     {

@@ -220,8 +220,9 @@ GameObject:
   - component: {fileID: 416522581}
   - component: {fileID: 416522580}
   - component: {fileID: 416522584}
+  - component: {fileID: 416522585}
   m_Layer: 0
-  m_Name: Ground2
+  m_Name: Ground 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -314,7 +315,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1.349926}
+  m_Offset: {x: 0, y: -1.5}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -325,7 +326,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 20.48, y: 2.420148}
+  m_Size: {x: 20.48, y: 2.5}
   m_EdgeRadius: 0
 --- !u!212 &416522583
 SpriteRenderer:
@@ -391,6 +392,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d615262d00964bd46bd1c0b1a40ba098, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &416522585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416522578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30046c1a84a34924babbaffffb25a217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &506598105
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,6 +418,7 @@ GameObject:
   - component: {fileID: 506598110}
   - component: {fileID: 506598109}
   - component: {fileID: 506598111}
+  - component: {fileID: 506598112}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -512,7 +526,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1.349926}
+  m_Offset: {x: 0, y: -1.5}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -523,7 +537,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 20.48, y: 2.420148}
+  m_Size: {x: 20.48, y: 2.5}
   m_EdgeRadius: 0
 --- !u!50 &506598109
 Rigidbody2D:
@@ -574,6 +588,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d615262d00964bd46bd1c0b1a40ba098, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &506598112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506598105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30046c1a84a34924babbaffffb25a217, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &572889066
